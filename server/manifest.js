@@ -31,6 +31,9 @@ module.exports = new Confidence.Store({
         plugins: [
             {
                 plugin: '../lib', // Main plugin
+                routes: {
+                    prefix: process.env.API_PREFIX || undefined
+                },
                 options: {}
             },
             {
