@@ -26,7 +26,7 @@ jobs:
           NODE_ENV: test
 
       - name: Save .pem file
-        run: cat ${{ secrets.DEPLOY_PEM }} > ~/.ssh/deploy.pem
+        run: echo "${{ secrets.DEPLOY_PEM }}" > ~/.ssh/deploy.pem
 
       - name: Run deploy script via ssh
         if: ${{ success() }}
