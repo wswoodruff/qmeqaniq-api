@@ -10,7 +10,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node server",
+    "start": "nodemon server -e js,json,hbs",
     "test": "lab -a @hapi/code -L",
     "lint": "eslint ."
   },
@@ -35,6 +35,7 @@
     "eslint": "7.x.x",
     "hpal": "2.x.x",
     "hpal-debug": "1.x.x",
+    "nodemon": "^2.0.4",
     "toys": "2.x.x"
   }
 }
