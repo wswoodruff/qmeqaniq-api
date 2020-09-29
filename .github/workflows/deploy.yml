@@ -25,7 +25,7 @@ jobs:
         env:
           NODE_ENV: test
 
-      - name: Save .pem file with perms
+      - name: Save .pem file and set perms
         run: echo "${{ secrets.DEPLOY_PEM }}" > ~/deploy.pem && chmod 400 ~/deploy.pem
 
       - name: Run deploy script via ssh
