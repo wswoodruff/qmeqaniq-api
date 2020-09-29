@@ -1,19 +1,21 @@
 #!/bin/bash
 
+# Note requires you to already have the app running on pm2 with name $APP_NAME
+
 # Check env var deps
 if [[ -z "$APP_NAME" ]]; then
     echo "Error: Must specify APP_NAME" 1>&2
-    exit 1
+    exit 64
 fi
 
 if [[ -z "$APP_PREFIX" ]]; then
     echo "Error: Must specify APP_PREFIX" 1>&2
-    exit 1
+    exit 64
 fi
 
 if [[ -z "$API_HOST" ]]; then
     echo "Error: Must specify API_HOST" 1>&2
-    exit 1
+    exit 64
 fi
 
 echo "Launching '${APP_NAME}'";
@@ -27,7 +29,7 @@ if [[ -z "$API_PREFIX" ]]; then
 fi
 
 if [[ -z "$PORT" ]]; then
-    export PORT=4000;
+    export PORT=5555;
 fi
 
 # Move to app folder
@@ -46,7 +48,7 @@ if [[ -d "/app/${APP_NAME}/lib/migrations" ]]; then
 fi
 
 # pm2
-
-pm2 restart ./server --name "${APP_NAME}" --update-env
+pm2 restart $APP_NAME --update-env
 
 # pm2 logs;
+
