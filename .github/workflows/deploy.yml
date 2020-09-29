@@ -26,8 +26,8 @@ jobs:
           NODE_ENV: test
 
       - name: Save .pem file
-        run: echo "${{ secrets.DEPLOY_PEM }}" > ~/.ssh/deploy.pem
+        run: echo "${{ secrets.DEPLOY_PEM }}" > ~/deploy.pem
 
       - name: Run deploy script via ssh
         if: ${{ success() }}
-        run: ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} -i ~/.ssh/deploy.pem APP_NAME=${{ secrets.APP_NAME }} APP_PREFIX=${{ secrets.APP_PREFIX }} API_HOST=${{ secrets.API_HOST }} PORT=${{ secrets.PORT }} ./restart-api.sh
+        run: ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} -i ~/deploy.pem APP_NAME=${{ secrets.APP_NAME }} APP_PREFIX=${{ secrets.APP_PREFIX }} API_HOST=${{ secrets.API_HOST }} PORT=${{ secrets.PORT }} ./restart-api.sh
