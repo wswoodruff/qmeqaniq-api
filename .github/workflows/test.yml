@@ -1,5 +1,8 @@
 name: code push test runner
-on: push
+on:
+  push:
+    branches-ignore:
+      - master
 
 jobs:
   # Label of the container job; visible on Github Actions UI
