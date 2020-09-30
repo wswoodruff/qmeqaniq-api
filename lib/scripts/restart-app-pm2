@@ -9,11 +9,6 @@ if [[ -z "$APP_NAME" ]]; then
     exit 1;
 fi
 
-if [[ -z "$APP_PREFIX" ]]; then
-    echo "Error: Must specify APP_PREFIX" 1>&2;
-    exit 1;
-fi
-
 if [[ -z "$API_PREFIX" ]]; then
     echo "Error: Must specify API_PREFIX" 1>&2;
     exit 1;
@@ -30,11 +25,8 @@ echo "Launching '${APP_NAME}'";
 cd "/app/${APP_NAME}";
 
 # Some heavy lifting
-
 git pull;
-
 npm ci;
-
 if [[ -d "/app/${APP_NAME}/lib/migrations" ]]; then
     knex migrate:latest;
 fi
