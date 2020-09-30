@@ -66,7 +66,7 @@ printf '\e[4:3m\e[58:2::240:143:104mtruecolor underline (new in 0.52) (*)\e[59m\
 printf '\e[4:3m\e[58:2:240:143:104mtruecolor underline (new in 0.52) (might be removed at some point) (*)\e[59m\e[4:0m'
 
 
-echo "\nYou actually ran this script!!!\n";
+echo "\n\nYou actually ran this script!!!\n";
 
 echo "loL";
 sleep 1;
