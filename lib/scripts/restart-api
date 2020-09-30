@@ -51,4 +51,3 @@ fi
 pm2 restart $APP_NAME --update-env
 
 # pm2 logs;
-
