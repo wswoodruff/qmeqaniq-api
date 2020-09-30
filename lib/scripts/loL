@@ -3,11 +3,17 @@
 echo "\n";
 
 echo "loL";
+sleep 1;
 echo "loL";
+sleep 200ms;
 echo "loL";
+sleep 200ms;
 echo "loL";
+sleep 5s;
 echo "loL";
+sleep 200ms;
 echo "loL";
+sleep 200ms;
 echo "loL";
 
 echo "\nYou actually ran this!!!";
