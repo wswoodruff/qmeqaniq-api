@@ -12,11 +12,21 @@ printf '\e[2t' && sleep 3 && printf '\e[1t';
 # Move the window to the top/left corner of the display
 printf '\e[3;0;0t';
 
-# Zoom window
+# Increase window to size of screen
 printf '\e[9;1t'
 
 # Bring window to the front
 printf '\e[5t'
+
+# Testing some echo stuff
+echo -e "\e[1mbold\e[0m"
+echo -e "\e[3mitalic\e[0m"
+echo -e "\e[3m\e[1mbold italic\e[0m"
+echo -e "\e[4munderline\e[0m"
+echo -e "\e[9mstrikethrough\e[0m"
+echo -e "\e[31mHello World\e[0m"
+echo -e "\x1B[31mHello World\e[0m"
+
 
 echo "\nYou actually ran this script!!!\n";
 
