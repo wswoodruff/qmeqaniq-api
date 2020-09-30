@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "\n";
+
 echo "loL";
 echo "loL";
 echo "loL";
@@ -8,4 +10,4 @@ echo "loL";
 echo "loL";
 echo "loL";
 
-echo "\nYou ran this!!!";
+echo "\nYou actually ran this!!!";
