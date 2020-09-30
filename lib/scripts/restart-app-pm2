@@ -30,10 +30,11 @@ echo "Launching '${APP_NAME}'";
 cd "/app/${APP_NAME}";
 
 # Some heavy lifting
+
 git pull;
+
 npm ci;
 
-# Migrate if hapipal plugin has migrations
 if [[ -d "/app/${APP_NAME}/lib/migrations" ]]; then
     knex migrate:latest;
 fi
