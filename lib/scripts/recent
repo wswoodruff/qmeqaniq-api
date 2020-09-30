@@ -1,0 +1,3 @@
+# Nice list of recently modified files and folders
+# ordered by most recently modified at bottom.
+alias recent="ls -ltrh ."
