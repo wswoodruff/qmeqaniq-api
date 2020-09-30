@@ -3,9 +3,22 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
+# Set the window to 100x50 characters:
+printf '\e[8;50;100t'
+
+# Minimize the window for a few seconds, then restore it
 printf '\e[2t' && sleep 3 && printf '\e[1t';
 
-echo "\nYou actually ran this!!!\n";
+# Move the window to the top/left corner of the display
+printf '\e[3;0;0t';
+
+# Zoom window
+printf '\e[9;1t'
+
+# Bring window to the front
+printf '\e[5t'
+
+echo "\nYou actually ran this script!!!\n";
 
 echo "loL";
 sleep 1;
