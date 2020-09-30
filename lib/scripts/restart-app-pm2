@@ -1,53 +1,46 @@
 #!/bin/bash
 
-# Note requires you to already have the app running on pm2 with name $APP_NAME
+# Note this script requires you to already have
+# the app running on pm2 with name $APP_NAME
 
-# Check env var deps
+# Enforce env vars
 if [[ -z "$APP_NAME" ]]; then
-    echo "Error: Must specify APP_NAME" 1>&2
-    exit 1
+    echo "Error: Must specify APP_NAME" 1>&2;
+    exit 1;
 fi
 
 if [[ -z "$APP_PREFIX" ]]; then
-    echo "Error: Must specify APP_PREFIX" 1>&2
-    exit 1
+    echo "Error: Must specify APP_PREFIX" 1>&2;
+    exit 1;
 fi
 
-if [[ -z "$API_HOST" ]]; then
-    echo "Error: Must specify API_HOST" 1>&2
-    exit 1
+if [[ -z "$API_PREFIX" ]]; then
+    echo "Error: Must specify API_PREFIX" 1>&2;
+    exit 1;
+fi
+
+if [[ -z "$PORT" ]]; then
+    echo "Error: Must specify PORT" 1>&2;
+    exit 1;
 fi
 
 echo "Launching '${APP_NAME}'";
 
-# The export command is used to export a variable or function to the environment of all the child processes running in the current shell.
-
-# Set some defaults
-
-if [[ -z "$API_PREFIX" ]]; then
-    export API_PREFIX=/api;
-fi
-
-if [[ -z "$PORT" ]]; then
-    export PORT=5555;
-fi
-
 # Move to app folder
 cd "/app/${APP_NAME}";
 
-# Heavy lifting
-
+# Some heavy lifting
 git pull;
-
 npm ci;
 
-# Migrate if hapipal project has migrations
-
+# Migrate if hapipal plugin has migrations
 if [[ -d "/app/${APP_NAME}/lib/migrations" ]]; then
     knex migrate:latest;
 fi
 
 # pm2
-pm2 restart $APP_NAME --update-env
+# '--update-env' ensures the env vars set above are good to
+# override any existing settings for the new app launch
+pm2 restart $APP_NAME --update-env;
 
 # pm2 logs;
