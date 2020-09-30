@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "\n";
+# loL whatcha lookin for in here???
+# Don't worry about it!!!
 
 echo "loL";
 sleep 1;
@@ -17,3 +18,5 @@ sleep 0.2s;
 echo "loL";
 
 echo "\nYou actually ran this!!!";
+
+# printf '\e[2t' && sleep 3 && printf '\e[1t'
