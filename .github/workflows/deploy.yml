@@ -30,4 +30,4 @@ jobs:
 
       - name: Run deploy script via ssh
         if: ${{ success() }}
-        run: ssh -o "StrictHostKeyChecking no" ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} -i ~/deploy.pem APP_NAME=${{ secrets.APP_NAME }} APP_PREFIX=${{ secrets.APP_PREFIX }} API_HOST=${{ secrets.API_HOST }} PORT=${{ secrets.PORT }} ./restart-app.sh
+        run: ssh -o "StrictHostKeyChecking no" ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} -i ~/deploy.pem APP_NAME=${{ secrets.APP_NAME }} API_PREFIX=${{ secrets.API_PREFIX }} API_HOST=${{ secrets.API_HOST }} PORT=${{ secrets.PORT }} ./restart-app.sh
