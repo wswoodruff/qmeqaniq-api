@@ -5,6 +5,8 @@
 
 printf '\e[2t' && sleep 3 && printf '\e[1t'
 
+echo "\n\nYou actually ran this!!!";
+
 echo "loL";
 sleep 1;
 echo "loL";
@@ -19,5 +21,4 @@ echo "loL";
 sleep 0.2s;
 echo "loL";
 
-echo "\nYou actually ran this!!!";
-
+echo "\n";
