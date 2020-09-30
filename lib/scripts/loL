@@ -82,4 +82,7 @@ echo "loL";
 sleep 0.2s;
 echo "loL";
 
+# Do some loop here to make some silly shape now that
+# you've got everyone's attention
+
 echo "\n";
