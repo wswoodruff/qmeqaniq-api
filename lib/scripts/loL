@@ -12,6 +12,9 @@ printf '\e[3;0;0t';
 # Increase window to size of screen
 printf '\e[9;1t'
 
+# Increase font size
+osascript -e "tell application \"Terminal\" to set the font size of window 1 to 60"
+
 # Bring window to the front
 printf '\e[5t'
 
