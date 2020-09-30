@@ -5,17 +5,17 @@
 # Check env var deps
 if [[ -z "$APP_NAME" ]]; then
     echo "Error: Must specify APP_NAME" 1>&2
-    exit 64
+    exit 1
 fi
 
 if [[ -z "$APP_PREFIX" ]]; then
     echo "Error: Must specify APP_PREFIX" 1>&2
-    exit 64
+    exit 1
 fi
 
 if [[ -z "$API_HOST" ]]; then
     echo "Error: Must specify API_HOST" 1>&2
-    exit 64
+    exit 1
 fi
 
 echo "Launching '${APP_NAME}'";
