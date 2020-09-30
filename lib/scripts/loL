@@ -3,9 +3,9 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
-printf '\e[2t' && sleep 3 && printf '\e[1t'
+printf '\e[2t' && sleep 3 && printf '\e[1t';
 
-echo "\n\nYou actually ran this!!!";
+echo "\nYou actually ran this!!!\n";
 
 echo "loL";
 sleep 1;
