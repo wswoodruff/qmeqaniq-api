@@ -51,6 +51,10 @@ underline() {
     printf "\e[4m$1\e[0m";
 }
 
+random() {
+    echo $RANDOM;
+}
+
 # Doesn't appear to work
 # strikethrough() {
 #     printf "\e[9m$1\e[0m";

@@ -14,8 +14,10 @@ clear;
 
 echo "\n\nYou actually ran this script!!!\n";
 
+#
+
 echo "loL";
-sleep 1;
+sleep $(random);
 echo "loL";
 sleep 0.2s;
 echo "loL";
