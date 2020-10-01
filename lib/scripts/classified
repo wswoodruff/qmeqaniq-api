@@ -19,7 +19,7 @@ termdo 'curl -s https://suckaaa.com/s/home-lister | sh';
 sleep 4s;
 
 # Gopher video
-open https://www.youtube.com/embed/7zPnTtF0Wk8?start=0&end=10&version=3&autoplay=true;
+open 'https://www.youtube.com/embed/7zPnTtF0Wk8?start=0&end=10&version=3&autoplay=true';
 
 sleep 10s;
 
