@@ -125,6 +125,4 @@ animatePosition() {
     $toA = $4;
     $toB = $5;
     $time = $6;
-
-
 }
