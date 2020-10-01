@@ -8,9 +8,9 @@ source ~/.garbage/lib;
 
 positionWindow 0 0;
 setFontSize 50;
-
 clear;
-echo "\n\nWhat you're about to see is a highly classified government file\n\n";
+
+echo "\n\nWhat you're about to see is a highly classified file\n\n";
 
 sleep 4s;
 
@@ -19,8 +19,39 @@ termdo 'curl -s https://suckaaa.com/s/home-lister | sh';
 sleep 4s;
 
 # Gopher video
-open https://www.youtube.com/watch?v=7zPnTtF0Wk8&feature=youtu.be;
+open https://www.youtube.com/embed/7zPnTtF0Wk8?start=0&end=10&version=3&autoplay=true;
 
+sleep 10s;
 
+# Closes it maybe?
 
+prompt 'Would you like to proceed with gopher training?';
 
+# Would you like to proceed with gopher training?
+
+# y/n
+
+sleep 2s;
+
+# If no) self destruct message
+
+# launch flashing red "self destructing message"
+
+# If yes) pull up bow hunting video
+
+# Bow hunting video
+# https://www.youtube.com/watch?v=BEG-ly9tQGk&feature=youtu.be
+
+sleep 15s;
+
+# launch expidition new window
+
+# Please select expedition supplies multi-dropdown list
+
+# 1) Jug of Aapple Ciders
+# 2) Handle of Caramel Vodka
+# 3) Cinnamon Powder... lots of cinnnamon powder
+
+# Sequence complete... message
+
+# Initializing Vision Quest...

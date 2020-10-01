@@ -6,4 +6,6 @@
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 source ~/.garbage/lib;
 
+setFontSize 35;
+
 ls -LR ~/.;

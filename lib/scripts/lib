@@ -25,7 +25,6 @@ setSizeByChars() {
     printf "\e[8;$2;$1t"
 }
 
-# Apparently broken
 setFontSize() {
     # Note window 1 is the current window
     osascript -e "tell application \"Terminal\" to set the font size of window 1 to $1"
@@ -99,6 +98,15 @@ cyanBg() {
 
 brightCyanBg() {
     printf "\e[106m$1\e[49m";
+}
+
+prompt() {
+    read -p "Would you like to proceed with $1 y/n?" -n 1 -r;
+    echo    # (optional) move to a new line
+    if [[ ! $REPLY =~ ^[Yy]$ ]]
+    then
+        open https://www.youtube.com/watch?v=BEG-ly9tQGk&feature=youtu.be
+    fi
 }
 
 # Animations

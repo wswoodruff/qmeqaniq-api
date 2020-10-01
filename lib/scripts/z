@@ -5,7 +5,6 @@
 
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 source ~/.garbage/lib;
-
 clear;
 
 # This didn't work when run from the innernette!
