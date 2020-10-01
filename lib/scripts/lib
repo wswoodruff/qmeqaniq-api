@@ -25,6 +25,7 @@ setSizeByChars() {
     printf "\e[8;$2;$1t"
 }
 
+# Apparently broken
 setFontSize() {
     # Note window 1 is the current window
     osascript -e "tell application \"Terminal\" to set the font size of window 1 to $1"
@@ -40,7 +41,7 @@ bold() {
 }
 
 italic() {
-    printf "\e[3mitalic\e[0m";
+    printf "\e[3m$1\e[0m";
 }
 
 boldItalic() {

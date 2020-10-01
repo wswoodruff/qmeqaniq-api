@@ -10,6 +10,9 @@ positionWindow 0 0;
 setSize 9 1;
 setFontSize 60;
 
+bold "I'm currently in your mother's bed — she's not home yet!!";
+open https://www.youtube.com/watch?v=7zPnTtF0Wk8&feature=youtu.be;
+
 echo "\n\nYou actually ran this script!!!\n";
 
 echo "loL";
