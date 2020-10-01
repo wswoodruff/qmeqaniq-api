@@ -109,7 +109,13 @@ prompt() {
     fi
 }
 
-# Animations
+# Utils
+
+bigMsg() {
+    # It takes work to manage how many newlines
+    # should be there for which font size
+    clear && setFontSize 120 && bold "\n\n\n$1\n\n\n";
+}
 
 animate() {
 
