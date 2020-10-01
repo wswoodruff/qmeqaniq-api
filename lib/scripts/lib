@@ -141,6 +141,10 @@ run() {
     $1 "$@";
 }
 
+openYtClip() {
+    open "https://www.youtube.com/embed/$1?start=$2&end=$3&version=3&autoplay=true";
+}
+
 bigMsg() {
     # It takes work to manage how many newlines
     # should be there for which font size
