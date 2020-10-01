@@ -6,6 +6,8 @@
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 source ~/.garbage/lib;
 
+clear;
+
 # This didn't work when run from the innernette!
 # source <(curl -s https://suckaaa.com/s/lib);
 # curl -s http://mywebsite.com/myscript.txt
