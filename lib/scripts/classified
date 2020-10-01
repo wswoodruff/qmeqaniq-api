@@ -25,6 +25,8 @@ sleep 10s;
 
 # Closes it maybe?
 
+bringToFront;
+
 prompt 'Would you like to proceed with gopher training?';
 
 # Would you like to proceed with gopher training?
