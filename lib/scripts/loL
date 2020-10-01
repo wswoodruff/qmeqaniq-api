@@ -12,12 +12,18 @@ setFontSize 60;
 
 clear;
 
-echo "\n\nYou actually ran this script!!!\n";
+echo "\n\nI can't believe you actually ran this script!!!\n";
+
+
+
+echo "\n\nI can't believe you actually ran this script!!!\n";
 
 #
 
+# sleep run random;
+
 echo "loL";
-sleep $(random);
+# sleep $(random);
 echo "loL";
 sleep 0.2s;
 echo "loL";

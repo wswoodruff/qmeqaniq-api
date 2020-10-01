@@ -115,6 +115,30 @@ prompt() {
 
 # Utils
 
+# This important func, 'run', helps compose bash funcs together.
+# It also helps writing code nicer. At my current understanding level,
+# this func helps at any time you would previously write '$(...)'
+# — now you can use 'run' to not have to think about it.
+# Plz share any thoughts you have about any of this
+
+# Here's a before and after example:
+# Before — "sleep $(random);"
+# After — "sleep run random;"
+
+# If you want to pass multiple args, you can.
+# "sleep run randomRange 1 10;"
+
+# Note that "$@" here is acting like spreading the '...args' to a js function
+# Here's a JS equivalent of 'run':
+# const run = (func, ...args) => {
+#
+#     return func(...args);
+# }
+# <3
+run() {
+    $1 "$@";
+}
+
 bigMsg() {
     # It takes work to manage how many newlines
     # should be there for which font size
