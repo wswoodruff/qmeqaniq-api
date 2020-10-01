@@ -3,18 +3,27 @@
 # loL whatcha lookin for in here???
 # Don't worry about it!!!
 
+# When I use this syntax: 'source <(curl https://url-here);'
+# in my local comp's shell, I'm able to source files
+# from the internet into my current shell just fine.
+# But if I use that syntax I get an error when I run:
+# 'curl -s https://suckaaa.com/s/z'
+# given it tries to source a file with:
+# ex: 'source <(curl -s https://suckaaa.com/s/lib);'.
+# It doesn't like the '<(' area — basically the cool part
+# that looks like Kirby.
+# So that's why I introduced the garbage lib.
+# If anybody has any ideas on any of this, lemme know!,
+# Until any better strategies are found, running the lib-installer
+# and sourcing the garbage lib is just basically each bash file module's header
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 
-# For the gateway script, we'll always want to force-update the lib
+# For the gateway script, we'll always want to
+# force-update the garbage lib
 curl -s https://suckaaa.com/s/lib > ~/.garbage/lib;
 
 source ~/.garbage/lib;
 clear;
-
-# This didn't work when run from the innernette!
-# source <(curl -s https://suckaaa.com/s/lib);
-# curl -s http://mywebsite.com/myscript.txt
-# bash -c 'curl -s https://suckaaa.com/s/lib' | bash;
 
 # Minimize the window for a few seconds, then restore it
 # printf '\e[2t' && sleep 3 && printf '\e[1t';

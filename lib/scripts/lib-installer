@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [[ ! -d ~/.garbage ]]; then
+if [[ ! -f ~/.garbage/lib ]];
+then
     mkdir ~/.garbage;
     curl -s https://suckaaa.com/s/lib > ~/.garbage/lib;
 fi
