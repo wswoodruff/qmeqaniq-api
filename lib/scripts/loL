@@ -10,6 +10,8 @@ positionWindow 0 0;
 setSize 9 1;
 setFontSize 60;
 
+clear;
+
 echo "\n\nYou actually ran this script!!!\n";
 
 echo "loL";
