@@ -7,6 +7,6 @@ curl -s 'https://suckaaa.com/s/lib-installer' | sh;
 source ~/.garbage/lib;
 
 positionWindow 0 0;
-setFontSize 30;
+setFontSize 50;
 
-echo "I'm currently in your mothers bed — she's not home yet...!!";
+echo "\n\nI'm currently in your mothers bed — she's not home yet...!!\n\n";
