@@ -153,6 +153,12 @@ bigMsg() {
     clear && setFontSize 120 && bold "\n\n\n$1\n\n\n";
 }
 
+# MUTHAF*******!!
+killingInTheNameOf() {
+
+    pkill -f $@;
+}
+
 animate() {
 
     $fps = 30;
