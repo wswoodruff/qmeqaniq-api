@@ -6,3 +6,125 @@
 termdo() {
     osascript -e 'tell application "Terminal" to do script "'"$1"'"'
 }
+
+positionWindow() {
+    printf "\e[3;$1;$2t";
+}
+
+setSize() {
+    # Fills the screen
+    # printf "\e[9;1t";
+    printf "\e[$1;$2t";
+}
+
+setSizeByChars() {
+    # Set the window to $1x$2 characters
+    # Note that height characters are much taller than width characters are wide
+    # You can make an almost square of screenspace including the terminal window chrome with setWindow 58 28
+    # You can make an almost square window with setWindow 58 24
+    printf "\e[8;$2;$1t"
+}
+
+setFontSize() {
+    # Note window 1 is the current window
+    osascript -e "tell application \"Terminal\" to set the font size of window 1 to $1"
+}
+
+bringToFront() {
+    # Bring window to the front
+    printf '\e[5t';
+}
+
+bold() {
+    printf "\e[1m$1\e[0m"
+}
+
+italic() {
+    printf "\e[3mitalic\e[0m";
+}
+
+boldItalic() {
+    printf "\e[3m\e[1m$1\e[0m";
+}
+
+underline() {
+    printf "\e[4m$1\e[0m";
+}
+
+# Doesn't appear to work
+# strikethrough() {
+#     printf "\e[9m$1\e[0m";
+# }
+
+red() {
+    printf "\e[31m$1\e[0m";
+}
+
+differentRed() {
+    printf "\x1B[31m$1\e[0m";
+}
+
+makeGoldAndUnderline() {
+    printf "\e[3;4;33m$1\n\e[0m";
+}
+
+dim() {
+    printf "\e[2m$1\e[22m";
+}
+
+highlight() {
+    printf "\e[4:2m$1\e[4:0m";
+}
+
+goldHighlight() {
+    printf "\e[4:3m$1\e[4:0m";
+}
+
+blink() {
+    printf "\e[5m$1\e[25m";
+}
+
+invisibleCopyPastable() {
+    printf "\e[8m$1\e[28m";
+}
+
+turquoise() {
+    printf "\e[38;5;42m$1\e[39m";
+}
+
+cyanBg() {
+    printf "\e[46m$1\e[49m";
+}
+
+brightCyanBg() {
+    printf "\e[106m$1\e[49m";
+}
+
+# Animations
+
+animate() {
+
+    $fps = 30;
+
+    $func = $1
+    $fromA = $2;
+    $fromB = $3;
+    $toA = $4;
+    $toB = $5;
+    $time = $6;
+
+    #
+}
+
+animatePosition() {
+
+    $fps = 30;
+
+    $fromA = $2;
+    $fromB = $3;
+    $toA = $4;
+    $toB = $5;
+    $time = $6;
+
+
+}
