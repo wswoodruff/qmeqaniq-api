@@ -10,8 +10,9 @@ positionWindow 0 0;
 setSize 9 1;
 setFontSize 60;
 
-bold "I'm currently in your mother's bed — she's not home yet!!";
 open https://www.youtube.com/watch?v=7zPnTtF0Wk8&feature=youtu.be;
+
+termdo 'setFontSize 60; echo "Im currently in your mothers bed — shes not home yet...!!"';
 
 echo "\n\nYou actually ran this script!!!\n";
 
