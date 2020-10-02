@@ -8,7 +8,7 @@ source ~/.complete-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-bigMsg "That was super weird right?";
+bigMsg "That was weird right?";
 
 sleep 4s;
 
