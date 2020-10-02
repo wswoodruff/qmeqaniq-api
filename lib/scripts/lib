@@ -75,7 +75,7 @@ random() {
 
 randomRange() {
 
-    # ////////
+    jot -r 1 $1 $2;
 }
 
 # Doesn't appear to work
