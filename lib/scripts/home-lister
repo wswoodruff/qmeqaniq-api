@@ -11,7 +11,7 @@ clear;
 setPosition 0 0;
 setFontSize 35;
 
-echo "Umm... Here's all the files in your home folder?";
+echo "Umm... Here's all the files in your home folder?\n\n";
 
 # Wish I knew how to stop this process on a timer
 # I'd like to wait like 20 seconds and close the window

@@ -21,7 +21,8 @@ openYtClip 7zPnTtF0Wk8 0 10;
 
 sleep 11s;
 
-minimizeAllChromes;
+# Doesn't work =/
+# minimizeAllChromes;
 
 nextScript 'https://suckaaa.com/s/home-lister';
 

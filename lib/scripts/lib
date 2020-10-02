@@ -85,7 +85,7 @@ minimizeAllTerminals() {
 
 minimizeAllChromes() {
 
-    osascript -e 'tell application "Google Chrome" to set miniaturized of every window to true';
+    osascript -e 'tell application "Google Chrome" to set minimized of every window to true';
 }
 
 # Doesn't appear to work
