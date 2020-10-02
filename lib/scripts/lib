@@ -159,10 +159,10 @@ cancelNoise() {
     tput bel;
 }
 
+# Dunno how to get these to work yet
 lockKeyboard() {
     stty -echo;
 }
-
 unlockKeyboard() {
     stty echo;
 }
