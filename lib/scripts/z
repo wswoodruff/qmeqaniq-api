@@ -20,6 +20,7 @@
 curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
 source ~/.garbage/lib;
 clear;
+lockKeyboard;
 ###########  END HEADER  ###########
 
 # For the gateway script, we'll always want to

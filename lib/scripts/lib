@@ -159,13 +159,13 @@ cancelNoise() {
     tput bel;
 }
 
-# noKeyboard() {
-#     stty -echo;
-# }
+lockKeyboard() {
+    stty -echo;
+}
 
-# yesKeyboard() {
-#     stty echo;
-# }
+unlockKeyboard() {
+    stty echo;
+}
 
 # MUTHAF*******!!
 killingInTheNameOf() {

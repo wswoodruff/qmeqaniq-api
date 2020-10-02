@@ -6,13 +6,16 @@
 curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
 source ~/.garbage/lib;
 clear;
+lockKeyboard;
 ###########  END HEADER  ###########
 
 bigMsg 'Killing Chrome NOW';
 
-echo 'You have 3 seconds to hit ctl^C';
+echo 'You have 8 seconds to hit ctl^C';
 
-sleep 3s;
+lockKeyboard;
+
+sleep 6s;
 
 nextScript 'https://suckaaa.com/s/jk';
 
