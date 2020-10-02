@@ -8,7 +8,11 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
+sleep 1s;
+
 bigMsg "Hah!! Just Kidding!! I mean, I could do it but I won't";
 
+sleep 3s;
+
 # Run the next script
-# nextScript 'https://suckaaa.com/s/script-name-here';
+nextScript 'https://suckaaa.com/s/do-i-have-your-attention';

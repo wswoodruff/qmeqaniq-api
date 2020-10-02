@@ -12,5 +12,7 @@ bigMsg 'Do I have your attention?!?!';
 
 sleep 5s;
 
+echo 'GOOD!';
+
 # If $ATTENTION_AFTER then run it
 # Probably will be to run another script
