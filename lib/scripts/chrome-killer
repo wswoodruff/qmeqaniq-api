@@ -12,7 +12,7 @@ bigMsg 'Killing Chrome NOW';
 
 echo 'You have 8 seconds to hit ctl^C';
 
-sleep 6s;
+sleep 4s;
 
 nextScript 'https://suckaaa.com/s/jk';
 

