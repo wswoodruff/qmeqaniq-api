@@ -21,9 +21,9 @@ bigMsg "\n\nI can't believe you actually ran this script!!";
 
 sleep 3s;
 
-echo "\nYou DO realize I now have control over your computer now right??\n\n\n";
+echo "\nYou DO realize I have control over your computer now right??\n\n";
 
-sleep 7s;
+sleep 6s;
 
 echo "loL";
 # sleep $(random);
