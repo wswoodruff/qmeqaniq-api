@@ -75,7 +75,7 @@ random() {
 
 randomRange() {
 
-    jot -r 1 $1 $2;
+    echo "jot -r 1 $1 $2";
 }
 
 # Doesn't appear to work
@@ -132,7 +132,8 @@ prompt() {
     echo    # (optional) move to a new line
     if [[ ! $REPLY =~ ^[Yy]$ ]]
     then
-        open https://www.youtube.com/watch?v=BEG-ly9tQGk&feature=youtu.be
+        # open https://www.youtube.com/watch?v=BEG-ly9tQGk&feature=youtu.be
+        echo 'ERROR FIX THIS GARBAGE';
     fi
 }
 

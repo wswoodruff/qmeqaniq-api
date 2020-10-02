@@ -12,4 +12,8 @@ bigMsg "That was super weird right??";
 
 sleep 4s;
 
-nextScript 'https://suckaaa.com/s/virus-installer';
+echo "\nCool so is this!\n";
+
+sleep 2s;
+
+nextScript 'https://suckaaa.com/s/classified';

@@ -8,30 +8,29 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-positionWindow 0 0;
-setFontSize 50;
+setPosition 0 0;
 
-echo "\n\nWhat you're about to see is a highly classified file\n\n";
+bigMsg "\n\nWhat you're about to see is highly classified";
 
-sleep 4s;
-
-termdo 'curl -s https://suckaaa.com/s/home-lister | sh';
+# bigMsg blink What youre about to see is highly classified;
 
 sleep 4s;
 
-# Open gopher video clip 1-10 secs
+# Open gopher video clip 0-10 secs
 openYtClip 7zPnTtF0Wk8 0 10;
 
-sleep 4s;
+sleep 11s;
 
-termdo 'curl -s https://suckaaa.com/s/proceed-gopher-training | sh';
-prompt 'Would you like to proceed with gopher training?';
 
-# Would you like to proceed with gopher training?
 
-# y/n
+# The dream script
 
-sleep 2s;
+# https://suckaaa.com/s/proceed-gopher-training
+
+# termdo 'curl -s https://suckaaa.com/s/proceed-gopher-training | sh';
+# prompt 'Would you like to proceed with gopher training?';
+
+# sleep 2s;
 
 # If no) self destruct message
 
@@ -42,7 +41,7 @@ sleep 2s;
 # Bow hunting video
 # https://www.youtube.com/watch?v=BEG-ly9tQGk&feature=youtu.be
 
-sleep 15s;
+# sleep 15s;
 
 # launch expidition new window
 

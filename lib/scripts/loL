@@ -25,36 +25,31 @@ echo "\nYou DO realize I now have control over your computer now right??";
 
 sleep 4s;
 
-wait() {
-    sleep '$(randomRange 1 3)s';
-}
-
 echo "loL";
 # sleep $(random);
 echo "loL";
-wait;
+sleep 1s;
 echo "loL";
-wait;
+sleep 1.2s;
 echo "loL";
-wait;
+sleep 1s;
 echo "loL";
-wait;
+sleep 0.8s;
 echo "loL";
-wait;
+sleep 1.2s;
 echo "loL";
-wait;
+sleep 0.8s;
 echo "loL!!";
-wait;
+sleep 1s;
 echo "loL!!";
-wait;
+sleep 1s;
 echo "loL!!";
-wait;
+sleep 1s;
 echo "Killing Chrome!!";
-wait;
+sleep 1s;
 echo "Killing Chrome!!";
-wait;
+sleep 1s;
 echo "Killing Chrome!!";
-wait;
 
 sleep 5s;
 
