@@ -13,5 +13,4 @@ bigMsg 'Do I have your attention?!?!';
 sleep 5s;
 
 # If $ATTENTION_AFTER then run it
-# Probably will be to run another script,
-# passed from the previous script
+# Probably will be to run another script
