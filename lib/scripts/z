@@ -47,7 +47,7 @@ cancelNoise;
 cancelNoise;
 
 # Undo that minimize
-# reverseMinimize;
+reverseMinimize;
 
 sleep 0.8s;
 
