@@ -19,8 +19,12 @@ rm -rf ~/.super-duper-garbage;
 
 sleep 3s;
 
-echo "You can have your computer back now...";
+echo "You can have your computer back now...\n\n";
 
 sleep 3s;
 
-minimize;
+echo "...Or can you??!!";
+
+sleep 3s;
+
+minimizeAllWindows;

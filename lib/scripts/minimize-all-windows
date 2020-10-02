@@ -8,8 +8,7 @@ source ~/.super-duper-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-osascript -e 'tell application "Terminal" to set miniaturized of every window to true';
+minimizeAllWindows;
 
 # Run the next script
 nextScript 'https://suckaaa.com/s/that-was-weird-right';
-

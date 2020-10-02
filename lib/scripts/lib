@@ -78,6 +78,11 @@ randomRange() {
     echo "jot -r 1 $1 $2";
 }
 
+minimizeAllWindows() {
+
+    osascript -e 'tell application "Terminal" to set miniaturized of every window to true';
+}
+
 # Doesn't appear to work
 # strikethrough() {
 #     printf "\e[9m$1\e[0m";
