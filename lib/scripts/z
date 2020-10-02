@@ -40,7 +40,7 @@ minimize;
 # Wait a couple secs
 sleep 2s;
 
-# Play some playful noises
+# Play some joyful noises
 cancelNoise;
 cancelNoise;
 cancelNoise;

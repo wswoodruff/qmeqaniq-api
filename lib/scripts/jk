@@ -8,7 +8,7 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-# Stuff here
+bigMsg "Hah!! Just Kidding!! I mean, I could do it but I won't";
 
 # Run the next script
 # nextScript 'https://suckaaa.com/s/script-name-here';
