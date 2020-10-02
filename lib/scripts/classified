@@ -21,6 +21,8 @@ openYtClip 7zPnTtF0Wk8 0 10;
 
 sleep 11s;
 
+bringToFront;
+
 # Doesn't work =/
 # minimizeAllChromes;
 
