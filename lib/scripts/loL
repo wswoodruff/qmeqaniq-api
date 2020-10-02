@@ -23,7 +23,7 @@ sleep 3s;
 
 echo "\nYou DO realize I now have control over your computer now right??\n\n\n";
 
-sleep 4s;
+sleep 7s;
 
 echo "loL";
 # sleep $(random);
