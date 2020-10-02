@@ -17,4 +17,7 @@ cancelNoise;
 
 setPosition 0 0;
 
-termdo "echo 'FROM IN HERE loooLLLL'";
+bigMsg 'OOPS!!';
+
+nextScript 'https://suckaaa.com/s/dont-touch-a-thing';
+# dont-touch-a-thing

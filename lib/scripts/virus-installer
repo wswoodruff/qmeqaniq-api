@@ -19,4 +19,4 @@ sleep 3s;
 
 netstat -a;
 
-echo
+# echo whatever and onto the next

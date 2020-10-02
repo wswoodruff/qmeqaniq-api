@@ -55,4 +55,4 @@ bigMsg '\n\n\nloLLLL!!!!!\n\n\n';
 
 sleep 2s;
 
-nextScript 'https://suckaaa.com/s/dont-touch-a-thing';
+nextScript 'https://suckaaa.com/s/oops';
