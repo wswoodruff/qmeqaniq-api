@@ -8,7 +8,7 @@ source ~/.super-duper-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-bigMsg 'Do I have your attention?!?!';
+bigMsg 'Do I have your attention?!?';
 
 sleep 5s;
 
