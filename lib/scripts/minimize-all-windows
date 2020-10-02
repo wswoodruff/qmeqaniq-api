@@ -8,7 +8,7 @@ source ~/.complete-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-minimizeAllWindows;
+minimizeAllTerminals;
 
 # Run the next script
 nextScript 'https://suckaaa.com/s/that-was-weird-right';

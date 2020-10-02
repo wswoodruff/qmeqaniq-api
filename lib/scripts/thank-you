@@ -27,4 +27,4 @@ echo "...Or can you??!!\n\n";
 
 sleep 3s;
 
-minimizeAllWindows;
+minimizeAllTerminals;

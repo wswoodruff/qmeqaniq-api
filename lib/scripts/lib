@@ -78,9 +78,14 @@ randomRange() {
     echo "jot -r 1 $1 $2";
 }
 
-minimizeAllWindows() {
+minimizeAllTerminals() {
 
     osascript -e 'tell application "Terminal" to set miniaturized of every window to true';
+}
+
+minimizeAllChromes() {
+
+    osascript -e 'tell application "Google Chrome" to set miniaturized of every window to true';
 }
 
 # Doesn't appear to work
