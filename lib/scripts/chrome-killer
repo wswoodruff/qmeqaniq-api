@@ -8,10 +8,10 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-bigMsg 'Killing Chrome NBD';
+bigMsg 'Killing Chrome NOW';
 
-sleep 2s;
+sleep 1s;
 
-killingInTheNameOf 'Google\ Chrome';
+killingInTheNameOf "Google\ Chrome";
 
 sleep 2s;

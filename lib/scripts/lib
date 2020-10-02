@@ -128,6 +128,7 @@ openYtClip() {
 bigMsg() {
     # It takes work to manage how many newlines
     # should be there for which font size
+    setPosition 0 0;
     clear && setFontSize 120 && bold "\n\n\n$1\n\n\n";
 }
 
