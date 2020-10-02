@@ -12,6 +12,6 @@ bigMsg 'Killing Chrome NOW';
 
 sleep 1s;
 
-killingInTheNameOf "Google\ Chrome";
+killingInTheNameOf "Google\sChrome";
 
 sleep 2s;
