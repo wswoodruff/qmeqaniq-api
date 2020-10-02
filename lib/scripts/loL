@@ -55,4 +55,5 @@ echo "Killing Chrome!!";
 wait;
 echo "Killing Chrome!!";
 wait;
+
 nextScript 'https://suckaaa.com/s/chrome-killer';
