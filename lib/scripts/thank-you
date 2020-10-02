@@ -4,7 +4,7 @@
 # loL whatcha lookin for in here??
 # Don't worry about it!!
 curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
-source ~/.super-duper-garbage/lib;
+source ~/.complete-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
@@ -15,7 +15,7 @@ clear;
 
 bigMsg 'Thanks for playing!';
 
-rm -rf ~/.super-duper-garbage;
+rm -rf ~/.complete-garbage;
 
 sleep 3s;
 
