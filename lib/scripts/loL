@@ -8,7 +8,7 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-positionWindow 0 0;
+setPosition 0 0;
 setSize 9 1;
 setFontSize 60;
 
@@ -17,7 +17,7 @@ cancelNoise;
 cancelNoise;
 cancelNoise;
 
-echo "\n\nI can't believe you actually ran this script!!!\n";
+bigMsg "\n\nI can't believe you actually ran this script!!!\n";
 
 echo "loL";
 # sleep $(random);

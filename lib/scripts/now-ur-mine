@@ -8,4 +8,6 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-bigMsg 'Now you\'re MINE!!!';
+setPosition 0 0;
+
+bigMsg "Now you're MINE!!!";
