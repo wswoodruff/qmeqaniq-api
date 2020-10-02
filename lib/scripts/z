@@ -53,7 +53,7 @@ sleep 0.8s;
 
 # Script needs to script here
 
-bigMsg '\n\n\nloLLLL!!!!!\n\n\n';
+bigMsg '\n\n\nloLLLL!!!!!\n\n';
 
 sleep 2s;
 
