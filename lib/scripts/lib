@@ -133,6 +133,11 @@ prompt() {
 
 # Utils
 
+# <3
+openHere() {
+    termdo "cd $(pwd)";
+}
+
 openYtClip() {
     open "https://www.youtube.com/embed/$1?start=$2&end=$3&version=3&autoplay=true";
 }
