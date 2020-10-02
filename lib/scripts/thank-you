@@ -23,7 +23,7 @@ echo "You can have your computer back now...\n\n";
 
 sleep 3s;
 
-echo "...Or can you??!!";
+echo "...Or can you??!!\n\n";
 
 sleep 3s;
 

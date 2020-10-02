@@ -12,7 +12,7 @@ bigMsg "That was super weird right?";
 
 sleep 4s;
 
-echo "Cool so is this!\n";
+echo "\nCool so is this!\n\n";
 
 sleep 2s;
 
