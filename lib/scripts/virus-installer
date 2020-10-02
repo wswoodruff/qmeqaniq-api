@@ -8,8 +8,15 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-osascript -e 'tell application "Terminal" to set miniaturized of every window to true';
+# Stuff here
 
 # Run the next script
-nextScript 'https://suckaaa.com/s/that-was-weird-right';
+# nextScript 'https://suckaaa.com/s/script-name-here';
 
+bigMsg "Ok, so... creating virus connections now...";
+
+sleep 2s;
+
+netstat -a;
+
+echo
