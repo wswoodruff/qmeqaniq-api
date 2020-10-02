@@ -8,7 +8,10 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-# Stuff here
+bigMsg 'Do I have your attention?!?!';
 
-# Run the next script
-# termdo 'curl -s https://suckaaa.com/s/script-name-here | sh';
+sleep 5s;
+
+# If $ATTENTION_AFTER then run it
+# Probably will be to run another script,
+# passed from the previous script
