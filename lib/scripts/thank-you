@@ -8,12 +8,19 @@ source ~/.super-duper-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-bigMsg "That was super weird right??";
+# Stuff here
 
-sleep 4s;
+# Run the next script
+# nextScript 'https://suckaaa.com/s/script-name-here';
 
-echo "\nCool so is this!\n";
+bigMsg 'Thank you for participating!';
 
-sleep 2s;
+rm -rf ~/.super-duper-garbage;
 
-nextScript 'https://suckaaa.com/s/classified';
+sleep 3s;
+
+echo "You can have your computer back now...";
+
+sleep 3s;
+
+minimize;

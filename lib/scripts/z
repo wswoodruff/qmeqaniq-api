@@ -18,16 +18,16 @@
 # Until any better strategies are found, running the lib-installer
 # and sourcing the garbage lib is just basically each bash file module's header
 curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
-source ~/.garbage/lib;
+source ~/.super-duper-garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
 # For the gateway script, we'll always want to
 # force-update the garbage lib — this is the best way
 # I can come up with to do this right now so here it is
-curl -s https://suckaaa.com/s/lib > ~/.garbage/lib;
+curl -s https://suckaaa.com/s/lib > ~/.super-duper-garbage/lib;
 # Re-source the updated file
-source ~/.garbage/lib;
+source ~/.super-duper-garbage/lib;
 
 cancelNoise;
 cancelNoise;
