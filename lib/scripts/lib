@@ -36,6 +36,14 @@ setFontSize() {
     osascript -e "tell application \"Terminal\" to set the font size of window 1 to $1"
 }
 
+minimize() {
+    printf '\e[2t';
+}
+
+reverseMinimize() {
+    printf '\e[1t';
+}
+
 bringToFront() {
     # Bring window to the front
     printf '\e[5t';

@@ -8,7 +8,7 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-bigMsg "☠☠☠ DON'T TOUCH A THING!! IF YOU DO YOUR COMPUTER WILL BE PERMANENTLY DAMAGED!! ☠☠☠";
+bigMsg "☠☠☠ DON'T TOUCH A THING!!\nOR YOU WILL PERMANENTLY DAMAGE YOUR COMPUTER!! ☠☠☠";
 
 sleep 8s;
 
