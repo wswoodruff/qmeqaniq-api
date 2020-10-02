@@ -19,7 +19,7 @@ cancelNoise;
 
 echo "\n\nI can't believe you actually ran this script!!!\n";
 
-# sleep run random;
+
 
 echo "loL";
 # sleep $(random);
