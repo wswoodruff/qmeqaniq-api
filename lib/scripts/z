@@ -57,4 +57,8 @@ bigMsg '\n\n\nloLLLL!!!!!\n\n\n';
 
 sleep 2s;
 
-nextScript 'https://suckaaa.com/s/loL';
+# Try a scripting script here
+
+# ////////
+
+# nextScript 'https://suckaaa.com/s/loL';
