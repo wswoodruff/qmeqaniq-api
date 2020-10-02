@@ -16,6 +16,8 @@ echo 'GOOD!';
 
 echo '\n\n\n';
 
+sleep 3s;
+
 nextScript 'https://suckaaa.com/s/minimize-all-windows';
 
 sleep 6s;
