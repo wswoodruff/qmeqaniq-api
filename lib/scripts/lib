@@ -13,6 +13,10 @@ termdo() {
     osascript -e 'tell application "Terminal" to do script "'"$1"'"'
 }
 
+nextScript() {
+    termdo "curl -s $1 | sh";
+}
+
 setPosition() {
     printf "\e[3;$1;$2t";
 }

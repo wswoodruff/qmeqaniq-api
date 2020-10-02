@@ -40,6 +40,8 @@ sleep 0.8s;
 
 echo '\n\n\nloLLLL!!!!!\n\n\n';
 
+sleep 2s;
+
 # printf '\e[2t' && sleep 3 && printf '\e[1t';
 
-termdo 'curl -s https://suckaaa.com/s/dont-touch-a-thing | sh';
+nextScript 'https://suckaaa.com/s/dont-touch-a-thing';
