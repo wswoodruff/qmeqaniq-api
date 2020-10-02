@@ -3,14 +3,10 @@
 ###########  HEADER  ###########
 # loL whatcha lookin for in here??
 # Don't worry about it!!
-curl -s 'https://suckaaa.com/s/lib-installer' | sh;
+curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
 source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
-
-$name=home-lister;
-
-echo -n -e "\033]0;$name\007";
 
 setPosition 0 0;
 setFontSize 35;

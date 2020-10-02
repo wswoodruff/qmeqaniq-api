@@ -8,10 +8,20 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
+# Stuff here
+
+# Run the next script
+# nextScript 'https://suckaaa.com/s/script-name-here';
+
+sleep 3s;
+
 setPosition 0 0;
+bigMsg 'Hi.';
 
-bigMsg "☠☠☠ DON'T TOUCH A THING OR YOUR COMPUTER WILL PERMANENTLY DAMAGED!! ☠☠☠";
+sleep 3s;
 
-sleep 8s;
+echo "Bye.";
 
-nextScript 'https://suckaaa.com/s/loL';
+killingInTheNameOf 'Terminal';
+
+#

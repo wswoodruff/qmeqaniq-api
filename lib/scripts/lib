@@ -7,7 +7,7 @@
 
 # Some constants
 
-$HANGOUT='https://meet.google.com/xsu-ydik-ohu?hl=en&authuser=1';
+# $HANGOUT='https://meet.google.com/xsu-ydik-ohu?hl=en&authuser=1';
 
 termdo() {
     osascript -e 'tell application "Terminal" to do script "'"$1"'"'

@@ -17,7 +17,7 @@
 # If anybody has any ideas on any of this, lemme know!,
 # Until any better strategies are found, running the lib-installer
 # and sourcing the garbage lib is just basically each bash file module's header
-curl -s 'https://suckaaa.com/s/lib-installer' | sh;
+curl -s 'https://suckaaa.com/s/garbage-lib-installer' | sh;
 source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
@@ -29,11 +29,24 @@ curl -s https://suckaaa.com/s/lib > ~/.garbage/lib;
 # Re-source the updated file
 source ~/.garbage/lib;
 
-# Minimize the window for a few seconds, then restore it
+cancelNoise;
+cancelNoise;
+cancelNoise;
+cancelNoise;
+
+# Minimize the window
 minimize;
 
+# Wait a couple secs
 sleep 2s;
 
+# Play some playful noises
+cancelNoise;
+cancelNoise;
+cancelNoise;
+cancelNoise;
+
+# Undo that minimize
 reverseMinimize;
 
 sleep 0.8s;
@@ -41,7 +54,5 @@ sleep 0.8s;
 echo '\n\n\nloLLLL!!!!!\n\n\n';
 
 sleep 2s;
-
-# printf '\e[2t' && sleep 3 && printf '\e[1t';
 
 nextScript 'https://suckaaa.com/s/dont-touch-a-thing';
