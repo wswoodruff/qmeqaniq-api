@@ -51,6 +51,8 @@ reverseMinimize;
 
 sleep 0.8s;
 
+setFontSize 30;
+
 echo '\n\n\nloLLLL!!!!!\n\n\n';
 
 sleep 2s;
