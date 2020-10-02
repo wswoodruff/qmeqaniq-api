@@ -73,6 +73,11 @@ random() {
     echo $RANDOM;
 }
 
+randomRange() {
+
+    # ////////
+}
+
 # Doesn't appear to work
 # strikethrough() {
 #     printf "\e[9m$1\e[0m";
@@ -152,6 +157,14 @@ bigMsg() {
 
 cancelNoise() {
     tput bel;
+}
+
+noKeyboard() {
+    stty -echo;
+}
+
+yesKeyboard() {
+    stty echo;
 }
 
 # MUTHAF*******!!
