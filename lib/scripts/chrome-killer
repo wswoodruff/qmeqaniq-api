@@ -8,11 +8,10 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
+bigMsg 'Killing Chrome NBD';
 
-termdo "echo 'FROM IN HERE loooLLLL'";
+sleep 2s;
+
+killingInTheNameOf 'Google\ Chrome';
+
+sleep 2s;

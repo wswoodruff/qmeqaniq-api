@@ -8,11 +8,4 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
-
-termdo "echo 'FROM IN HERE loooLLLL'";
+bigMsg 'Now you\'re MINE!!!';

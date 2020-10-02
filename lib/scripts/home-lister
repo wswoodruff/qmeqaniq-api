@@ -8,6 +8,13 @@ source ~/.garbage/lib;
 clear;
 ###########  END HEADER  ###########
 
+$name=home-lister;
+
+echo -n -e "\033]0;$name\007";
+
+setPosition 0 0;
 setFontSize 35;
 
+# Wish I knew how to stop this process on a timer
+# I'd like to wait like 20 seconds and close the window
 ls -LR ~/.;

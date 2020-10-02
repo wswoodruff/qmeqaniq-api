@@ -23,12 +23,9 @@ sleep 4s;
 # Open gopher video clip 1-10 secs
 openYtClip 7zPnTtF0Wk8 0 10;
 
-sleep 10s;
+sleep 4s;
 
-# Closes it maybe?
-
-bringToFront;
-
+termdo 'curl -s https://suckaaa.com/s/proceed-gopher-training | sh';
 prompt 'Would you like to proceed with gopher training?';
 
 # Would you like to proceed with gopher training?

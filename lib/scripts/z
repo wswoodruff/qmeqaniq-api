@@ -1,7 +1,8 @@
 #!/bin/bash
 
+###########  HEADER  ###########
 # loL whatcha lookin for in here??
-# Don't worry about it!!!
+# Don't worry about it!!
 
 # When I use this syntax: 'source <(curl https://url-here);'
 # in my local comp's shell, I'm able to source files
@@ -17,15 +18,20 @@
 # Until any better strategies are found, running the lib-installer
 # and sourcing the garbage lib is just basically each bash file module's header
 curl -s 'https://suckaaa.com/s/lib-installer' | sh;
-
-# For the gateway script, we'll always want to
-# force-update the garbage lib
-curl -s https://suckaaa.com/s/lib > ~/.garbage/lib;
-
 source ~/.garbage/lib;
 clear;
+###########  END HEADER  ###########
+
+# For the gateway script, we'll always want to
+# force-update the garbage lib — this is the best way
+# I can come up with to do this right now so here it is
+curl -s https://suckaaa.com/s/lib > ~/.garbage/lib;
+# Re-source the updated file
+source ~/.garbage/lib;
 
 # Minimize the window for a few seconds, then restore it
 # printf '\e[2t' && sleep 3 && printf '\e[1t';
 
-termdo 'curl -s https://suckaaa.com/s/loL | sh';
+termdo 'curl -s https://suckaaa.com/s/dont-touch-nothin | sh';
+
+# termdo 'curl -s https://suckaaa.com/s/loL | sh';
