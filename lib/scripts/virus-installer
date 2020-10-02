@@ -15,7 +15,7 @@ clear;
 
 bigMsg "Ok, so... Establishing virus connections now...";
 
-sleep 2s;
+sleep 3s;
 
 netstat -a;
 
