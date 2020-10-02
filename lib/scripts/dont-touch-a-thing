@@ -10,7 +10,7 @@ clear;
 
 setPosition 0 0;
 
-bigMsg "☠☠☠ DON'T TOUCH A THING!!\nOR YOU WILL PERMANENTLY DAMAGE YOUR COMPUTER!! ☠☠☠";
+bigMsg "☠☠☠ DON'T TOUCH A THING\nOR YOU WILL PERMANENTLY DAMAGE YOUR COMPUTER!! ☠☠☠";
 
 sleep 8s;
 
